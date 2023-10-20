@@ -48,8 +48,6 @@ void ms( vector<int> &arr,int low,int high){
     arr.push_back(6);
     arr.push_back(4);
     int n=arr.size();
-    for( auto it : arr)cout<<it<<" ";
-    cout<<endl;
     ms(arr,0,n-1);
     for( auto it : arr)cout<<it<<" ";
     cout<<endl;
