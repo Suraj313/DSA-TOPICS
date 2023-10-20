@@ -29,3 +29,4 @@ int main(){
     cout<<lastOcc(arr,7,0,5);
     return 0;
 }
+// Outpu
